@@ -1,3 +1,4 @@
+import lucide from '@iconify/json/json/lucide.json'
 import presetAttributify from '@unocss/preset-attributify'
 import UnocssIcons from '@unocss/preset-icons'
 import presetWebFonts from '@unocss/preset-web-fonts'
@@ -8,7 +9,15 @@ export default defineConfig({
   presets: [
     presetWind3(),
     presetAttributify(),
-    UnocssIcons({}),
+    UnocssIcons({
+      collections: {
+        lucide,
+      },
+      scale: 1.1,
+      extraProperties: {
+        display: 'inline-block',
+      },
+    }),
     presetWebFonts({
       provider: 'google',
       fonts: {
