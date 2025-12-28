@@ -13,8 +13,13 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",
+    "@iconify/json": "^2.2.421",
     "@types/node": "^24.10.1",
     "@unocss/eslint-plugin": "^66.5.10",
+    "@unocss/preset-attributify": "^66.5.11",
+    "@unocss/preset-icons": "^66.5.11",
+    "@unocss/preset-web-fonts": "^66.5.11",
+    "@unocss/preset-wind3": "^66.5.11",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
     "eslint": "^9.39.2",
